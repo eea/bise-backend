@@ -1,6 +1,5 @@
+-f https://eggrepo.eea.europa.eu/simple/
 collective.volto.subsites==1.4.0
-eea.dexterity.indicators==5.0
-eea.dexterity.themes==1.4
 eea.progress.workflow==3.0
 eea.coremetadata==3.0
 eea.api.dataconnector==4.3
