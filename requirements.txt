@@ -4,5 +4,6 @@ eea.dexterity.themes
 eea.progress.workflow
 eea.coremetadata
 eea.restapi
-eea.dexterity.rdfmarshaller
-SuRF
+plone.app.imagecropping
+bise.content
+eea.api.dataconnector
