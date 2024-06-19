@@ -1,6 +1,6 @@
 -f https://eggrepo.eea.europa.eu/simple/
 eea.progress.workflow==3.0
-eea.coremetadata==3.7
+eea.coremetadata==3.8
 eea.api.dataconnector==10.3
 bise.content==1.3
 mo-sql-parsing==9.376.23121
