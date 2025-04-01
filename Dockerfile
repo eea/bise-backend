@@ -1,4 +1,4 @@
-FROM eeacms/plone-backend:6.0.13-19
+FROM eeacms/plone-backend:6.0.13-20
 
 COPY requirements.txt constraints.txt /app/
 # COPY /develop/etc /app/etc
