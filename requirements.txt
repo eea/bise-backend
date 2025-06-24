@@ -5,4 +5,4 @@ eea.progress.workflow
 eea.coremetadata
 eea.restapi
 bise.content
-eea.api.dataconnector
+eea.api.dataconnector==11.5
