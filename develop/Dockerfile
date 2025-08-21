@@ -1,4 +1,4 @@
-FROM eeacms/bise-backend:plone-6
+FROM eeacms/bise-backend
 
 RUN runDeps="vim tmux mc" \
   && apt-get update \
