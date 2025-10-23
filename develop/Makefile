@@ -42,7 +42,7 @@ endif
 ##############################################################################
 # SETTINGS AND VARIABLE
 
-PLONE_VERSION=6.0.0
+PLONE_VERSION=6.0.15
 #`docker run -i --rm eeacms/plone-backend env | grep PLONE_VERSION | sed "s/PLONE_VERSION=//g"`
 PIP_PARAMS=
 #`docker run -i --rm eeacms/plone-backend env | grep PIP_PARAMS | sed "s/PIP_PARAMS=//g"`
@@ -63,20 +63,22 @@ bootstrap:		## Bootstrap python environment
 
 .PHONY: install
 install:		## Install Plone and develop add-ons
-	bin/pip install Plone plone.volto -c "https://dist.plone.org/release/$(PLONE_VERSION)/constraints.txt" $(PIP_PARAMS)
-	bin/pip install zope.testrunner plone.app.testing plone.reload dm.plonepatches.reload collective.exportimport -c "https://dist.plone.org/release/$(PLONE_VERSION)/constraints.txt" $(PIP_PARAMS)
+	bin/pip install Plone plone.volto -c "https://dist.plone.org/release/$(PLONE_VERSION)/constraints.txt"
+	bin/pip install zope.testrunner plone.app.testing plone.reload dm.plonepatches.reload collective.exportimport -c "https://dist.plone.org/release/$(PLONE_VERSION)/constraints.txt"
+	bin/pip install relstorage==4.0.0 psycopg2==2.9.5 python-ldap==3.4.3 pas.plugins.ldap==1.8.2 -c "https://dist.plone.org/release/$(PLONE_VERSION)/constraints.txt"
 	bin/mkwsgiinstance -d . -u admin:admin
 	mkdir -p var/blobstorage var/filestorage
 
 .PHONY: develop
 develop:		## Develop source.ini add-ons using mxdev
-	bin/pip install -r ../requirements.txt -c ../constraints.txt $(PIP_PARAMS)
+	bin/pip install -r ../requirements.txt -c ../constraints.txt
+	bin/pip install plone.autoinclude==2.0.0
 	bin/mxdev -c sources.ini
-	bin/pip install -r requirements-mxdev.txt $(PIP_PARAMS)
+	bin/pip install -r requirements-mxdev.txt
 
 .PHONY: start
 start:			## Start Plone backend
-	bin/runwsgi -v etc/zope.ini
+	bin/runwsgi -v etc/zope.ini config_file=zope.conf
 
 .PHONY: release
 release:		## See release candidates
@@ -86,3 +88,8 @@ release:		## See release candidates
 help:			## Show this help.
 	@echo -e "$$(grep -hE '^\S+:.*##' $(MAKEFILE_LIST) | sed -e 's/:.*##\s*/:/' -e 's/^\(.\+\):\(.*\)/\\x1b[36m\1\\x1b[m:\2/' | column -c2 -t -s :)"
 	head -n 12 Makefile
+
+.PHONY: relstorage
+relstorage:		## Start Plone backend (RelStorage/PostgreSQL)
+	docker compose up -d
+	bin/runwsgi -v etc/zope.ini config_file=relstorage.conf
