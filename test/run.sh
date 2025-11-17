@@ -9,9 +9,9 @@ usage() {
 	cat <<EOUSAGE
 
 usage: $self [-t test ...] image:tag [...]
-   ie: $self eeacms/plone-backend:6.0.0a1
-       $self -t utc eeacms/plone-backend:6.0.0a1
-       $self -t utc eeacms/plone-backend:6.0.0a1 -t plone-zeoclient
+   ie: $self plone/plone-backend:6.1.3
+       $self -t utc plone/plone-backend:6.1.3
+       $self -t utc plone/plone-backend:6.1.3 -t plone-zeoclient
 
 This script processes the specified Docker images to test their running
 environments.
