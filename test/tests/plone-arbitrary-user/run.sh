@@ -41,4 +41,4 @@ get_auth() {
 [[ "$(get_auth 'http://plone:8080/@@ploneAddSite?distribution=volto' "$(echo -n 'admin:admin' | base64)")" == *"plone-overview.min.js"* ]]
 
 # Create a Plone site Classic
-# [[ "$(get_auth 'http://plone:8080/@@ploneAddSite?distribution=classic' "$(echo -n 'admin:admin' | base64)")" == *"plone-overview.min.js"* ]]
+[[ "$(get_auth 'http://plone:8080/@@ploneAddSite?distribution=classic' "$(echo -n 'admin:admin' | base64)")" == *"plone-overview.min.js"* ]]
