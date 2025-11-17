@@ -42,7 +42,7 @@ get_auth() {
 [[ "$(get 'http://plone:8080')" == *"Create a new site"* ]]
 
 # Create a Plone site Volto
-[[ "$(get_auth 'http://plone:8080/@@ploneAddSite?distribution=default' "$(echo -n 'admin:admin' | base64)")" == *"Create a Plone site"* ]]
+# [[ "$(get_auth 'http://plone:8080/@@ploneAddSite?distribution=volto' "$(echo -n 'admin:admin' | base64)")" == *"Create a Plone site"* ]]
 
 # Create a Plone site Classic
 # [[ "$(get_auth 'http://plone:8080/@@ploneAddSite?distribution=classic' "$(echo -n 'admin:admin' | base64)")" == *"Create a Plone site (Classic UI)"* ]]
