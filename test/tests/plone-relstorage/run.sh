@@ -39,7 +39,7 @@ get_auth() {
 . "$dir/../../retry.sh" --tries "$PLONE_TEST_TRIES" --sleep "$PLONE_TEST_SLEEP" get "http://plone:8080"
 
 # Plone is up and running
-[[ "$(get 'http://plone:8080')" == *"Create a new site"* ]]
+[[ "$(get 'http://plone:8080')" == *"Welcome to Plone!"* ]]
 
 # Create a Plone site Volto
 # [[ "$(get_auth 'http://plone:8080/@@ploneAddSite?distribution=volto' "$(echo -n 'admin:admin' | base64)")" == *"Create a Plone site"* ]]
