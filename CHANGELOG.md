@@ -1,6 +1,30 @@
 # Changelog
 
 
+## [6.1.3-19](https://github.com/eea/bise-backend/releases/tag/6.1.3-19) - 2025-12-04T17:13:08Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.0.15-18 ~ 6.1.3-6 
+
+
+### Dependency updates
+
+##### [bise.content](https://pypi.org/project/bise.content/#changelog): 1.3 ~ 1.4
+
+##### [eea.progress.workflow](https://pypi.org/project/eea.progress.workflow/#changelog): 3.0 ~ 3.1
+
+#### New packages
+
+##### [eea.api.visualizationutils](https://pypi.org/project/eea.api.visualizationutils/#changelog): 1.3
+
+### Internal
+
+- Update calculate_next_release.sh - [valentinab25 -  [`9a96c71`](https://github.com/eea/bise-backend/commit/9a96c719715107ded8ea25638e8f87ca8c551b4d)]
+- feat: added eea.api.visualizationutils to requirements - [laszlocseh -  [`b8cca80`](https://github.com/eea/bise-backend/commit/b8cca803455778de08ce1bf4600c8bbe3f3166b3)]
+- test: fix plone 6.1 tests - [laszlocseh -  [`d0925eb`](https://github.com/eea/bise-backend/commit/d0925eb5c4c3495b49f6bc77ecb56588070cf8c6)]
+- Plone 6.1 - [dobri1408 -  [`8fca865`](https://github.com/eea/bise-backend/commit/8fca865d00063015231b3094fb10a84d9a8171f3)]
+
 ## [6.1.3-18](https://github.com/eea/bise-backend/releases/tag/6.1.3-18) - 2025-12-04T00:17:53Z
 
 ### Plone
