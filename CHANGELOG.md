@@ -1,6 +1,21 @@
 # Changelog
 
 
+## [6.1.3-37](https://github.com/eea/bise-backend/releases/tag/6.1.3-37) - 2025-12-23T00:55:00Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.3-9 ~ 6.1.3-10 
+
+##### eeacms/plone-backend:[6.1.3-10](https://github.com/eea/plone-backend/releases/tag/6.1.3-10)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 11.1 ~ 11.2
+
+* Fix: Index image scales with relative_path to context
+ [avoinea - refs #295495]
+
+
 ## [6.1.3-36](https://github.com/eea/bise-backend/releases/tag/6.1.3-36) - 2025-12-22T10:15:40Z
 
 ### Plone
