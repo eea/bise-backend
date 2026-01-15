@@ -7,3 +7,4 @@ bise.content
 eea.api.dataconnector
 eea.plotly
 eea.api.visualizationutils
+collective.geolocationbehavior
