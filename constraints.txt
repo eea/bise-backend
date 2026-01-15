@@ -2,7 +2,7 @@
 eea.progress.workflow==3.1
 eea.coremetadata==5.3
 eea.api.visualizationutils==1.4
-bise.content==1.4
+bise.content==1.5
 mo-sql-parsing==9.376.23121
 mo-parsing==8.376.23121
 XlsxWriter==3.1.0
