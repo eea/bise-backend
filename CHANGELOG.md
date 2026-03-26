@@ -1,6 +1,21 @@
 # Changelog
 
 
+## [6.1.3-51](https://github.com/eea/bise-backend/releases/tag/6.1.3-51) - 2026-03-26T01:25:12Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.3-15 ~ 6.1.3-16 
+
+##### eeacms/plone-backend:[6.1.3-16](https://github.com/eea/plone-backend/releases/tag/6.1.3-16)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 11.3 ~ 11.4
+
+* Change: (FIX): Fix 404 page when parent is private refs #284281
+ [dobri1408]
+
+
 ## [6.1.3-50](https://github.com/eea/bise-backend/releases/tag/6.1.3-50) - 2026-03-07T01:10:13Z
 
 ### Plone
