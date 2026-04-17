@@ -1,6 +1,35 @@
 # Changelog
 
 
+## [6.1.3-53](https://github.com/eea/bise-backend/releases/tag/6.1.3-53) - 2026-04-17T00:13:13Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.3-17 ~ 6.1.3-19 
+
+##### eeacms/plone-backend:[6.1.3-19](https://github.com/eea/plone-backend/releases/tag/6.1.3-19)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 12.0 ~ 12.1
+
+* Change: Change header defaults
+ [razvanMiu]
+##### eeacms/plone-backend:[6.1.3-18](https://github.com/eea/plone-backend/releases/tag/6.1.3-18)
+###### Dependency updates
+
+###### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 5.4 ~ 5.5
+
+* Change: Add unit tests for seq_strip and tuplize functions
+ [avoinea]
+
+### Dependency updates
+
+##### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 5.4 ~ 5.5
+
+* Change: Add unit tests for seq_strip and tuplize functions
+  [avoinea]
+
+
 ## [6.1.3-52](https://github.com/eea/bise-backend/releases/tag/6.1.3-52) - 2026-04-15T00:18:59Z
 
 ### Plone
