@@ -1,6 +1,12 @@
 # Changelog
 
 
+## [6.1.4-7](https://github.com/eea/bise-backend/releases/tag/6.1.4-7) - 2026-06-18T23:44:41Z
+
+### Internal
+
+- test: increase retrys on tests - [valentinab25 -  [`185e1b9`](https://github.com/eea/bise-backend/commit/185e1b94d0707a52bbb348382d6b791bdd0f3609)]
+
 ## [6.1.4-6](https://github.com/eea/bise-backend/releases/tag/6.1.4-6) - 2026-06-18T17:27:28Z
 
 ### Plone
