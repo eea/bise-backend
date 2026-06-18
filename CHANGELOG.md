@@ -1,6 +1,26 @@
 # Changelog
 
 
+## [6.1.4-6](https://github.com/eea/bise-backend/releases/tag/6.1.4-6) - 2026-06-18T17:27:28Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-5 ~ 6.1.4-6 
+
+##### eeacms/plone-backend:[6.1.4-6](https://github.com/eea/plone-backend/releases/tag/6.1.4-6)
+###### Dependency updates
+
+###### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 2.8 ~ 3.0
+
+* New: Add EEA40 member states group (EEA38 + Ukraine + Moldova) to
+ geotags taxonomy. Includes upgrade step for existing sites and
+ updated VDEX profile for new installations.
+ [avoinea - refs #304772]
+
+### Internal
+
+- test: increase retrys on tests - [valentinab25 -  [`a113a32`](https://github.com/eea/bise-backend/commit/a113a329abd25a5fae0851a4f73f7df3e260978a)]
+
 ## [6.1.4-5](https://github.com/eea/bise-backend/releases/tag/6.1.4-5) - 2026-06-04T23:34:44Z
 
 ### Plone
