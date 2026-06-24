@@ -1,6 +1,12 @@
 # Changelog
 
 
+## [6.1.4-8](https://github.com/eea/bise-backend/releases/tag/6.1.4-8) - 2026-06-24T17:04:35Z
+
+### Internal
+
+- add eea.restapi in order for @silblings to work - [Claudia Ifrim -  [`2960d72`](https://github.com/eea/bise-backend/commit/2960d7247f761843544e482f67ea9ce608129ad8)]
+
 ## [6.1.4-7](https://github.com/eea/bise-backend/releases/tag/6.1.4-7) - 2026-06-18T23:44:41Z
 
 ### Internal
