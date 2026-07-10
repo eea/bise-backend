@@ -9,3 +9,4 @@ eea.plotly
 eea.api.visualizationutils
 collective.geolocationbehavior
 eea.restapi
+eea.volto.policy
