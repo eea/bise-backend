@@ -1,6 +1,38 @@
 # Changelog
 
 
+## [6.1.4-12](https://github.com/eea/bise-backend/releases/tag/6.1.4-12) - 2026-07-11T23:38:31Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-9 ~ 6.1.4-10 
+
+##### eeacms/plone-backend:[6.1.4-10](https://github.com/eea/plone-backend/releases/tag/6.1.4-10)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 13.1 ~ 13.2
+
+* Fix: Delegate to collective.exportimport's image serializers when one of its
+ export markers is present on the request.
+ [claudiaifrim - refs #304938]
+
+### Dependency updates
+
+##### [XlsxWriter](https://pypi.org/project/XlsxWriter/#changelog): 3.1.0 ~ 3.1.0
+
+##### [mo-parsing](https://pypi.org/project/mo-parsing/#changelog): 8.376.23121 ~ 8.376.23121
+
+##### [mo-sql-parsing](https://pypi.org/project/mo-sql-parsing/#changelog): 9.376.23121 ~ 9.376.23121
+
+#### New packages
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy): 13.2
+
+### Internal
+
+- refs #304938 - fix image blob export - [Claudia Ifrim -  [`2cf201e`](https://github.com/eea/bise-backend/commit/2cf201ec8de913fbc2e9ff248ac1e2d71332b23b)]
+- fix: properly pin version - [Claudia Ifrim -  [`1902114`](https://github.com/eea/bise-backend/commit/190211408df8c77149e1581c038ab1b0f0193b35)]
+
 ## [6.1.4-11](https://github.com/eea/bise-backend/releases/tag/6.1.4-11) - 2026-07-07T23:44:56Z
 
 ### Plone
