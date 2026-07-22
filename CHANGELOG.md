@@ -1,6 +1,14 @@
 # Changelog
 
 
+## [6.1.4-15](https://github.com/eea/bise-backend/releases/tag/6.1.4-15) - 2026-07-22T23:45:51Z
+
+### Internal
+
+- Remove duplicate eea.restapi from requirements.txt
+
+Removed 'eea.restapi' from the requirements. - [Claudia Ifrim -  [`2192c39`](https://github.com/eea/bise-backend/commit/2192c396d7d9220e57109d53a999288b1a731394)]
+
 ## [6.1.4-14](https://github.com/eea/bise-backend/releases/tag/6.1.4-14) - 2026-07-14T23:58:20Z
 
 ### Plone
