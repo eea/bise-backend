@@ -2,7 +2,7 @@
 eea.progress.workflow==3.3
 eea.coremetadata==6.4
 eea.api.visualizationutils==1.4
-eea.volto.policy==13.5
+eea.volto.policy==13.6
 bise.content==2.2
 mo-sql-parsing==9.376.23121
 mo-parsing==8.376.23121
