@@ -1,6 +1,66 @@
 # Changelog
 
 
+## [6.1.4-22](https://github.com/eea/bise-backend/releases/tag/6.1.4-22) - 2026-08-20T00:39:11Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-16 ~ 6.1.4-18 
+
+##### eeacms/plone-backend:[6.1.4-18](https://github.com/eea/plone-backend/releases/tag/6.1.4-18)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 13.6 ~ 13.7
+
+* Fix: Apply ``CACHE_TTL`` consistently to the RAM fallback as well as Redis
+ and Memcached.
+ [razvanMiu]
+##### eeacms/plone-backend:[6.1.4-17](https://github.com/eea/plone-backend/releases/tag/6.1.4-17)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 13.4 ~ 13.6
+
+* Change: Release Move @siblings endpoint from eea.restapi to eea.volto.policy (#123)
+ [avoinea]
+
+* Change: Own the global ``plone.memoize`` cache chooser and its Redis,
+ Memcached, and RAM backends.
+ [razvanMiu]
+
+###### New packages
+
+###### [redis](https://pypi.org/project/redis/#changelog): 8.1.0
+
+###### Internal
+
+- Add redis==8.1.0 - [Alin Voinea - [`b3f4401`](https://github.com/eea/plone-backend/commit/b3f4401bf365e811a648ceaadade2426eda60049)]
+
+### Dependency updates
+
+##### [bise.content](https://github.com/eea/bise.content/releases): 2.2 ~ 2.3
+
+* Change: Release
+  [laszlocseh]
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 13.4 ~ 13.7
+
+* Fix: Apply ``CACHE_TTL`` consistently to the RAM fallback as well as Redis
+  and Memcached.
+  [razvanMiu]
+
+* Change: Release Move @siblings endpoint from eea.restapi to eea.volto.policy (#123)
+  [avoinea]
+
+* Change: Own the global ``plone.memoize`` cache chooser and its Redis,
+  Memcached, and RAM backends.
+  [razvanMiu]
+
+### Internal
+
+- Remove eea.restapi from requirements.txt
+
+Removed 'eea.restapi' from the requirements. - [Laszlo Cseh -  [`e759e66`](https://github.com/eea/bise-backend/commit/e759e66825ad277c887a966a62d039c0c2212495)]
+
 ## [6.1.4-21](https://github.com/eea/bise-backend/releases/tag/6.1.4-21) - 2026-08-17T23:36:16Z
 
 ### Dependency updates
