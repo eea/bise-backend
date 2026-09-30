@@ -1,6 +1,28 @@
 # Changelog
 
 
+## [6.1.4-27](https://github.com/eea/bise-backend/releases/tag/6.1.4-27) - 2026-09-30T00:00:10Z
+
+### Plone
+
+#### Upgrade [eeacms/plone-backend](https://github.com/eea/plone-backend): 6.1.4-20 ~ 6.1.4-21 
+
+##### eeacms/plone-backend:[6.1.4-21](https://github.com/eea/plone-backend/releases/tag/6.1.4-21)
+###### Dependency updates
+
+###### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 13.8 ~ 13.9
+
+* Change: Release - Restore subsite expansion adapter for subsite_logo_main
+ [tedw87]
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 13.8 ~ 13.9
+
+* Change: Release - Restore subsite expansion adapter for subsite_logo_main
+  [tedw87]
+
+
 ## [6.1.4-26](https://github.com/eea/bise-backend/releases/tag/6.1.4-26) - 2026-09-26T01:14:00Z
 
 ### Plone
