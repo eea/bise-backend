@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.1.5-2](https://github.com/eea/bise-backend/releases/tag/6.1.5-2) - 2026-11-03T00:21:57Z
+
+### Dependency updates
+
+##### [bise.content](https://github.com/eea/bise.content/releases): 2.5 ~ 2.6
+
+* Change: Release
+  [laszlocseh]
+
+
 ## [6.1.5-1](https://github.com/eea/bise-backend/releases/tag/6.1.5-1) - 2026-10-30T11:45:30Z
 
 ### Plone
