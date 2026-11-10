@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.1.5-3](https://github.com/eea/bise-backend/releases/tag/6.1.5-3) - 2026-11-10T00:15:46Z
+
+### Dependency updates
+
+##### [bise.content](https://github.com/eea/bise.content/releases): 2.6 ~ 2.7
+
+* Change: Release
+  [laszlocseh]
+
+
 ## [6.1.5-2](https://github.com/eea/bise-backend/releases/tag/6.1.5-2) - 2026-11-03T00:21:57Z
 
 ### Dependency updates
